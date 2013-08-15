@@ -1043,8 +1043,8 @@ else
 	
 	//RadioButton *rb5 = [[RadioButton alloc] initWithGroupId:@"second group" index:6 settitle:@"2014指南者2.0L"]; 
 	//RadioButton *rb6 = [[RadioButton alloc] initWithGroupId:@"second group" index:7 settitle:@"2013指南者2.0L"]; 
-	RadioButton *rb5 = [[RadioButton alloc] initWithGroupId:@"second group" index:4 settitle:@"2014指南者2.4L"];
-    RadioButton *rb31= [[RadioButton alloc] initWithGroupId:@"second group" index:5 settitle:@"2014指南者2.0L"];
+	RadioButton *rb5 = [[RadioButton alloc] initWithGroupId:@"second group" index:4 settitle:@"2014指南者2.0L"];
+    RadioButton *rb31= [[RadioButton alloc] initWithGroupId:@"second group" index:5 settitle:@"2014指南者2.4L"];
     RadioButton *rb32 = [[RadioButton alloc] initWithGroupId:@"second group" index:6 settitle:@"2014指南者2.4L蛇行珍藏版"];
 	rb5.frame = CGRectMake(leftd,topsex+346,244,28);
   //  rb6.frame = CGRectMake(leftd,topd+436,244,28);
@@ -1099,7 +1099,7 @@ else
 	
 	[questionText30 setFont:[UIFont fontWithName:@"Helvetica-Bold" size:16]];
     [view4  addSubview:questionText30];	
-    RadioButton *rb17 = [[RadioButton alloc] initWithGroupId:@"second group" index:15 settitle:@"2014 自由光"]; 
+    RadioButton *rb17 = [[RadioButton alloc] initWithGroupId:@"second group" index:15 settitle:@"2014自由光"]; 
     rb17.frame = CGRectMake(leftd,topd+886,244,28);
     
     
@@ -1133,7 +1133,7 @@ else
 			  @"2014指南者2.0L",@"2014指南者2.4L",@"2014指南者2.4L蛇行珍藏版",
 			  @"牧马人Sahara两门款",@"牧马人Sahara四门款",@"牧马人Rubicon两门款",
 			  @"牧马人Rubicon四门款",@"牧马人Rubicon十周年纪念款",
-			  @"2014自由客2.0L",@"2014自由客2.4L",@"2014自由客蛇行珍藏版",@"2014自由光",
+			  @"2014自由客2.0L",@"2014自由客2.4L",@"2014自由客2.4L蛇行珍藏版",@"2014自由光",
 			 @"300C",@"300S", @"大捷龙",@"酷威",nil];
     
     rb1.tag=0;

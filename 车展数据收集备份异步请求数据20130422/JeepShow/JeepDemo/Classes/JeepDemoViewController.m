@@ -82,6 +82,8 @@ self.pickerUIView.frame = CGRectMake(0, screenheight, 320, 260);
 	//[self.view removeFromSuperview];
 	//[self setModalTransitionStyle:UIModalTransitionStyleCoverVertical];
   [self presentModalViewController:testcontroller animated:YES]; 
+        lblcar.titleLabel.text=@"             请选择  ";
+        lblchezhu.titleLabel.text=@"请选择  ";
 	//controller.delegate = self;
 	}
 	//[self.view.window addSubview:controller.view];
