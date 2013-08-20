@@ -183,6 +183,7 @@ self.pickerUIView.frame = CGRectMake(0, screenheight, 320, 260);
                     @"300S",
                     @"大捷龙",
                     @"酷威",nil];
+    self.pickerData=nil;
 	self.pickerData=array;
     self.cbxtxt=@"全新进口大切诺基SRT8";
 	CGContextRef context = UIGraphicsGetCurrentContext();
@@ -191,7 +192,9 @@ self.pickerUIView.frame = CGRectMake(0, screenheight, 320, 260);
     [UIView setAnimationDuration:0.6];//动画时间长度，单位秒，浮点数
 	self.picker.hidden=NO;
 	
+	[self.picker selectRow:0 inComponent:kdid animated:YES];
 	
+	[self.picker reloadComponent:kdid];
 	self.pickerData=array;
 	[self.picker selectRow:0 inComponent:kdid animated:YES];
 	
