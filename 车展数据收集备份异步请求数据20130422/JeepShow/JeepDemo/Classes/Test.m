@@ -186,9 +186,9 @@
     HUD.delegate=self;
     HUD.labelText=@"正在上传中";
     [HUD show:YES];
-    myThread = [[NSThread alloc] initWithTarget:self selector:@selector(UploadAllData:) object:nil];
-   [myThread start]; 
-   // [self UploadAllData];
+//myThread = [[NSThread alloc] initWithTarget:self selector:@selector(UploadAllData:) object:nil];
+   //[myThread start]; 
+        [self UploadAllData:nil];
     }
 
 }
