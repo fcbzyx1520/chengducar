@@ -271,7 +271,7 @@
         [model setValueforCodeQR:[oneObject valueForKey:@"codeQR"]];
         NSString  *iskeyistring,*issmsstring;
         
-        if([[model GetValueforIskeyi]compare:@"0"]==NSOrderedSame)
+        if([[model GetValueforIskeyi] compare:@"1"]==NSOrderedSame)
             {
                 iskeyistring=@"1";
             }
@@ -279,7 +279,7 @@
             {
                 iskeyistring=@"2";
             }
-             if([[model GetValueforIskeyi]compare:@"0"]==NSOrderedSame)
+             if([[model GetValueforIssms] compare:@"1"]==NSOrderedSame)
              {
                  issmsstring=@"1";
              }
